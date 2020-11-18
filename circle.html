@@ -1,0 +1,393 @@
+
+
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <title>Michael Schwartz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="michael schwartz, cornell, cornell university, designer, ux design, product design, portfolio, personal website, design">
+    <meta name="description" content="Hey! I'm Michael! I'm a UX designer studying Information Science at the Cornell University.
+    Welcome to my digital portfolio.">
+    <meta name="author" content="Michael Schwartz">
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="styles/font-awesome.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="styles/animate.css">
+    <link href="styles/all.css" rel="stylesheet" id="dark-stylesheet">
+    <script src="https://kit.fontawesome.com/d42d40371a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/LOGO.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/LOGO.png">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Michael Schwartz | Portfolio">
+    <meta property="og:description" content="I'm Michael! I'm a UX designer studying Information Science at the Cornell University.">
+    <meta property="og:image" content="https://m-schwartz.me/images/me.jpg">
+    <meta property="og:url" content="https://m-schwartz.me">
+
+<!--
+  </head>
+  <body>
+
+    <div class="container">
+      <nav class="nav-container">
+        <a href="index.html" class="nav-item link">Michael Schwartz</a>
+        <div class="nav-container__items">
+          <a href="images/resume.pdf" target="_blank" class="nav-item link">Resume</a>
+          <a href="about.html" class="nav-item link">About</a>
+        </div>
+      </nav>
+
+      <div class="intro">
+                <div class="intro__tag animated fadeInUp">Case Study</div>
+                <h1 class="intro__heading animated fadeInUp">
+                  <span class="color--red">Circle</span>&mdash;Designing to help college students in professional networking
+                </h1>
+                <div class="intro__experiences animated fadeInUp">
+                  <div class="experience">
+                    <p class="experience__name"><span class="color--red font-weight--bold">Role</span> / User Researching, Interactive Prototyping and Visual UI</p>
+                  </div>
+                  <div class="experience">
+                    <p class="experience__name"><span class="color--red font-weight--bold">Team</span> / 2 designers, 1 product manager, 1 engineer masnager, 4 developers</p>
+                  </div>
+                  <div class="experience">
+                    <p class="experience__name"><span class="color--red font-weight--bold">Tools</span> / Figma</p>
+                  </div>
+                  <div class="experience">
+                    <p class="experience__name"><span class="color--red font-weight--bold">Timeline</span> / 8 weeks</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <img src="images/quora-explore-preview-lg.png" alt="Quora explore page screenshot" class="full-img animated fadeInUp spacing-bottom--large image--padded">
+
+            <div class="container">
+              <h2>Context</h2>
+              <p class="spacing-bottom">
+                Quora is a Q&A platform with the mission of sharing and growing the
+                world's knowledge. Quora works by continuously learning the interests
+                of users based on their activity on the platform, and then suggesting
+                content to them with the home feed and "digest" emails. During the
+                summer of 2019, I interned as a product designer on the
+                internationalization (i18n) team.
+              </p>
+              <p class="main-point spacing-bottom--xlarge">
+                Quora's mission is to share and grow the world's knowledge
+              </p>
+              <h2 class="">New User Lifecycle</h2>
+              <p class="spacing-bottom--large">
+                One of my first projects at Quora was to explore the process of how
+                new users encounter Quora and identify points where
+                dropoff occurs. In order to understand the steps involved from first
+                encountering Quora to becoming a power user, I documented each step of
+                the signup/onboarding flow as well as the initial actions that are taken
+                by new users. I also met with user researchers, data scientists,
+                and other product designers at the company to learn from their
+                collective experiences. With this information, I created a lifecycle
+                diagram illustrating the most common flows of new users.
+              </p>
+            </div>
+
+            <img src="images/quora-new-user-lifecycle.png" alt="New user lifecycle flowchart for Quora" class="full-img spacing-bottom--large">
+
+            <div class="container">
+              <p class="spacing-bottom">
+                There are two main ways new users sign up for Quora: we referred to
+                these as SEO and organic. The SEO (search engine optimization) flow
+                generally involves people making a Google search and then clicking a
+                Quora link in the search results. While the user can read content on
+                the link they clicked, they must create an account or sign in to view
+                related questions. This signup wall often leads to frustration and low
+                intent when new users create their accounts as many simply want to
+                view the link they had just clicked on. As this SEO flow accounted for
+                the majority of new users on the platform, new users often created
+                accounts which quickly became stale.
+              </p>
+              <p class="main-point spacing-bottom--xlarge">
+                New (SEO) users have low intent when creating their accounts
+              </p>
+
+              <h2>Problem</h2>
+              <p class="spacing-bottom">
+                In order for users to get the most out of Quora and find content that
+                matches their interests, they must complete the onboarding flow
+                and follow topics. As these users often have low intent when going
+                through the onboarding steps, a majority of these new users follow the
+                minimum number of topics and don't accurately select what interests them.
+                This leads to two main problems&mdash;users end up with a home feed of
+                content they don't care for, or only see content that is far too
+                specific to a particular topic.
+              </p>
+              <p class="main-point">
+                1. &nbsp;New user feeds are too siloed around particular topics
+              </p>
+              <p class="main-point spacing-bottom--xlarge">
+                2. &nbsp;Low intent follow actions lead to a cluttered home feed
+              </p>
+              <h2 class="spacing-bottom">Content Sources</h2>
+              <p class="spacing-bottom">
+                At the core of the two problems is the question: how do users discover
+                new content sources after they sign up? Content sources on Quora refer
+                to topics, spaces (Quora's version of a subreddit or Facebook group),
+                and other users who post and like content.
+              </p>
+              <p class="main-point spacing-bottom--large">
+                How do users discover new content sources?
+              </p>
+              <h4>1. Discovery Carousel</h4>
+              <p class="spacing-bottom">
+                One of the main ways users find new topics and spaces to follow is
+                through discovery carousels which are placed in the home feed.
+              </p>
+              <div class="row spacing-bottom--large">
+                <div class="col-sm-6">
+                  <img src="images/quora-topics-carousel.png" alt="Screenshot of Quora topics carousel" class="full-img">
+                </div>
+                <div class="col-sm-6 hide-on-mobile">
+                  <img src="images/quora-spaces-carousel.png" alt="Screenshot of Quora spaces carousel" class="full-img">
+                </div>
+              </div>
+              <h4>2. Search</h4>
+              <p class="spacing-bottom">
+                Users also directly search for specific topics, spaces, and users.
+                However, unlike similar applications such as Twitter or LinkedIn,
+                Quora's search page is initially empty.
+              </p>
+              <p class="main-point spacing-bottom">
+                While similar applications use the search page as a way to surface
+                new content, Quora's search page is empty
+              </p>
+              <div class="row spacing-bottom--xlarge">
+                <div class="col-sm-4">
+                  <p>Quora</p>
+                  <img src="images/quora-search.jpg" alt="Screenshot of Quora's search page" class="full-img">
+                </div>
+                <div class="col-sm-4 hide-on-mobile">
+                  <p>Twitter</p>
+                  <img src="images/twitter-explore.jpg" alt="Screenshot of Twitter's search page" class="full-img">
+                </div>
+                <div class="col-sm-4 hide-on-mobile">
+                  <p>LinkedIn</p>
+                  <img src="images/linkedin-explore.png" alt="Screenshot of LinkedIn's search page" class="full-img">
+                </div>
+              </div>
+
+              <h2>Goal</h2>
+              <p class="spacing-bottom">
+                Improve the discoverability of quality content sources through
+                redesigning the mobile search page.
+              </p>
+              <h4>Priority Metrics and KPIs</h4>
+              <p class="spacing-bottom--xlarge">
+                Active hours (sessions per day), trending content taps, topic and space follows
+              </p>
+
+              <h2>Approach 1: Discovery</h2>
+              <p class="spacing-bottom">
+                The first approach focuses on grouping the discovery carousels in
+                one place, allowing users to easily find new topics, spaces, and users
+                to follow. While having a dedicated page for the carousels may increase
+                the number of content sources a user follows, simply showing
+                suggestions of content sources to follow isn't valuable for users. For
+                this reason, approach #2 focuses more on surfacing actual content
+                that the user may be interested in.
+              </p>
+              <p class="main-point spacing-bottom--large">
+                People don't necessarily want to follow more content sources&mdash;
+                they to want to see better content when they use Quora
+              </p>
+              <div class="row spacing-bottom--xlarge">
+                <div class="col-sm-4">
+                  <img src="images/quora-discover-1.png" alt="First mockup of new discover page" class="full-img">
+                </div>
+                <div class="col-sm-4 hide-on-mobile">
+                  <img src="images/quora-discover-2.png" alt="Second mockup of new discover page" class="full-img">
+                </div>
+                <div class="col-sm-4 hide-on-mobile">
+                  <img src="images/quora-discover-3.png" alt="Third mockup of new discover page" class="full-img">
+                </div>
+              </div>
+
+              <h2>Approach 2: Trending Content</h2>
+              <p class="spacing-bottom">
+                The second approach I tried was to create a separate feed where users
+                can find content that may not have entered their home feed. The idea
+                with showing trending content is that users can first see the stories
+                (question and answer pair) related to a particular content source before actually
+                following that source.
+              </p>
+              <p class="main-point spacing-bottom--large">
+                Showing trending content lets users view engaging stories before
+                following the content sources
+              </p>
+              <div class="row spacing-bottom--xlarge">
+                <div class="col-sm-4">
+                  <img src="images/quora-trending-1.png" alt="First mockup of new trending page" class="full-img">
+                </div>
+                <div class="col-sm-4 hide-on-mobile">
+                  <img src="images/quora-trending-2.png" alt="Second mockup of new trending page" class="full-img">
+                </div>
+                <div class="col-sm-4 hide-on-mobile">
+                  <img src="images/quora-trending-3.png" alt="Third mockup of new trending page" class="full-img">
+                </div>
+              </div>
+
+              <h2>Story Card</h2>
+              <p class="spacing-bottom">
+                The first step to designing the trending feed is thinking through how
+                each story (question and answer pair) will be presented. Since there's
+                a limited amount of space on the screen especially if they keyboard is
+                up, I designed the trending card to take less vertical space by moving
+                the author information to the top and removing their picture/credential.
+                As the purpose of the explore page is to highlight new content,
+                moving the author information puts the focus back to the questions and
+                answers.
+              </p>
+              <p class="main-point">
+                The trending card is 22% shorter than the home feed card, allowing
+                more stories to be shown in the limited available space
+              </p>
+              <div class="row spacing-bottom--small">
+                <div class="col-xs-6"><h4>Home Feed Card</h4></div>
+                <div class="col-xs-6"><h4>Trending Card</h4></div>
+              </div>
+              <img src="images/quora-cards-comparison.png" alt="The new card is 22% shorter than the old" class="full-img spacing-bottom--xlarge">
+
+              <h2>Search Interaction</h2>
+              <p class="spacing-bottom--large">
+                Another important consideration was deciding whether to open the
+                keyboard when the user taps the search icon from the home page. On one
+                hand, showing the full page without the keyboard would likely increase
+                engagement with the new trending content feature with the tradeoff of
+                requiring an extra tap to enter a search query. The other option of
+                showing the keyboard right away aligns with the intent of users
+                looking to enter a query, however reduces potential interaction with
+                the new trending feed.
+              </p>
+              <img src="images/quora-search-interaction.png" alt="Diagram illustrating whether the keyboard should open when the user taps search" class="full-img spacing-bottom--large">
+              <p class="spacing-bottom">
+                After discussion with the team as well as looking at data of search
+                usage, we decided to go with option 1 (open the keyboard immediately).
+                This way, the trending content is still visible when opening the
+                search page, however does not interupt those who want to enter a
+                search right away.
+              </p>
+              <p class="main-point spacing-bottom--xlarge">
+                We chose option 1 to ensure the new feature doesn't hinder those who
+                simply want to make a search
+              </p>
+
+              <h2>Final Designs</h2>
+              <p class="spacing-bottom--large">
+                The explore page gives users a way to break out of their home feed and
+                discover new content that matches their interests. With the trending
+                topics, users can view a curated list of related stories while also
+                being able to read globally trending content on the platform.
+              </p>
+              <h4>Figma Prototype</h4>
+              <a href="https://www.figma.com/proto/iPQZDZJjEPDOLuXunsOhtM/Quora-Explore-Page?node-id=5%3A1187&viewport=-5872%2C-3860%2C0.681577205657959&scaling=scale-down" target="_blank" class="project__link spacing-bottom--large">
+                <p class="project-link__text">View Figma Prototype</p>
+                <img src="images/arrow.svg" alt="Arrow right" class="project-link__arrow">
+              </a>
+              <div class="hide-on-mobile row spacing-bottom--xlarge">
+                <div class="col-sm-4">
+                  <img src="images/quora-trending-solution-1.png" alt="First mockup of final solution" class="full-img">
+                </div>
+                <div class="col-sm-4">
+                  <img src="images/quora-trending-solution-2.png" alt="Second mockup of final solution" class="full-img">
+                </div>
+                <div class="col-sm-4">
+                  <img src="images/quora-trending-solution-3.png" alt="Third mockup of final solution" class="full-img">
+                </div>
+              </div>
+              <div class="hide-on-desktop spacing-bottom--xlarge">
+                <img src="images/quora-trending-solution-1.png" alt="First mockup of final solution" class="full-img spacing-bottom--large">
+                <img src="images/quora-trending-solution-2.png" alt="Second mockup of final solution" class="full-img spacing-bottom--large">
+                <img src="images/quora-trending-solution-3.png" alt="Third mockup of final solution" class="full-img">
+              </div>
+
+              <h2>Mobile Web Prototype</h2>
+              <p class="spacing-bottom--large">
+                In order to produce a more realistic prototype and assess the
+                engineering work required to build this feature, I developed a working
+                prototype during Quora's internal hackathon using the company's web
+                framework (Python + Webnode). The logic behind the ranking algorithm
+                of stories was built by two engineers and two data scientists I was
+                working with.
+              </p>
+              <div class="row spacing-bottom--xlarge">
+                <div class="col-sm-6 hide-on-mobile">
+                  <img src="images/quora-explore-mweb-screenshot.png" alt="Mobile prototype screenshot of new trending page" class="full-img spacing-bottom">
+                </div>
+                <div class="col-sm-6">
+                  <img src="images/quora-explore-mweb-prototype.gif" alt="Mobile prototype animation of new trending page" class="full-img spacing-bottom">
+                </div>
+              </div>
+
+              <h2>Results</h2>
+              <p class="spacing-bottom">
+                After developing the prototype above, our team won the company's internal
+                hackathon, sparking an initiative to build this feature with a larger
+                engineering team dedicated to it.
+              </p>
+              <p class="main-point">
+                The prototype won first place in company hackathon
+              </p>
+              <p class="main-point spacing-bottom--xlarge">
+                The trending/explore page project is now being prioritized and the
+                team is currently building the first version
+              </p>
+
+              <h4 class="spacing-bottom">More Projects</h4>
+              <a href="raie.html" class="project">
+                <div class="project__text">
+                  <h2 class="project__heading">
+                    Creating a <span class="color--red">payment system</span> for a start-up
+                  </h2>
+                  <div class="project__link">
+                    <p class="project-link__text">View case study</p>
+                    <i class="fas fa-arrow-right project-link__arrow"></i>
+                  </div>
+                </div>
+                <div class="project__image-container">
+                  <img src="images/raie1.png" alt="raie1" class="project__image">
+                </div>
+              </a>
+              <a href="smartspace.html" class="project">
+                <div class="project__text">
+                  <h2 class="project__heading">
+                    Designing for Cornell students to <span class="color--red">find and take action in study spaces </span> on campus
+                  </h2>
+                  <div class="project__link">
+                    <p class="project-link__text">View case study</p>
+                    <i class="fas fa-arrow-right project-link__arrow"></i>
+                  </div>
+                </div>
+                <div class="project__image-container">
+                  <img src="images/smartspace.png" alt="smartspace1" class="project__image">
+                </div>
+              </a>
+
+          </div>
+
+
+
+        <nav class="bottom-nav">
+          <a href="mailto:mls557@cornell.edu" class="link">  <i class="fa fa-envelope fa-2x" aria-hidden="true"></i> </a>
+          <a href="https://www.linkedin.com/in/mschwartz21/" class=" link"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+          <a href="https://medium.com/@mls557" class="link"> <i class="fa fa-medium fa-2x" aria-hidden="true" ></i>  </a>
+          <a href="https://dribbble.com/mschwartz724" class="link"> <i class="fab fa-dribbble fa-2x"></i></a>
+        </nav>
+        <p class="footer-text">made by <span class="color--red">Michael Schwartz</span></p>
+
+        <img src="images/LOGO.png" alt="logo" class="bottom-logo">
+      </div>
+    </div>
+
+
+  </body>
+</html>
+
+-->

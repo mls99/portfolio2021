@@ -128,12 +128,14 @@ h4 {
   font-style: italic;
 }
 
+/* Comment out not to have the line on the bottom change back
 .project__link {
   border-bottom: 2px solid #fff;
   display: inline-block;
   transition-property: border-color;
   transition-duration: 0.15s;
 }
+*/
 
 .project__link:hover,
 .project__link:focus {
